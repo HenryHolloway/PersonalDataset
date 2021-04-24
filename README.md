@@ -7,7 +7,8 @@ This project aims to explore the difference between deaths from COVID-19 and Inf
 ![Flu vs COVID](https://raw.githubusercontent.com/HenryHolloway/PersonalDataset/main/FLUvsCOVIDSortedN.png)
 This is a simple visualization comparing the deaths in each state from Influenza/Pneumonia against deaths from COVID-19. The measures put into place to protect against the novel coronavirus would also protect against the flu virus, so for an accurate comparison I took the average of Influenza/Pneumonia deaths each year from 2014-2019 and compared that with all COVID-19 deaths in each state in 2020. 
 
-The above visualization shows a decent broad-strokes picture of how much more lethal the novel coronavirus has been, but I wanted more detail so I weighted by population:
+
+Tukey's five number summary showed a large disparity between the minimum COVID-19 Deaths (136) and maximum (30040). Since a similar, albeit less drastic, disparity presented with the Influenza data, I decided it must be caused by the differences in population from state to state. To compensate for this, I created a two new columns, one for population divided by deaths from each disease.
 
 ![Flu vs COVID](https://raw.githubusercontent.com/HenryHolloway/PersonalDataset/main/FLUvsCOVIDWeightedN.png)
 
