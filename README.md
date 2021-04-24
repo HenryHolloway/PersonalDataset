@@ -10,3 +10,5 @@ This is a simple visualization comparing the deaths in each state from Influenza
 The above visualization shows a decent broad-strokes picture of how much more lethal the novel coronavirus has been, but I wanted more detail so I weighted by population:
 
 ![Flu vs COVID](https://raw.githubusercontent.com/HenryHolloway/PersonalDataset/main/FLUvsCOVIDWeighted.png)
+
+This chart shows the total population divided by the number of deaths; in other words, New Jersey had 1 COVID-19 death for every 500 residents, whereas they averaged only 1 Influenza death for every 7000 people.
